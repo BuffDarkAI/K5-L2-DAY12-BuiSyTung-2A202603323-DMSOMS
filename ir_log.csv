@@ -1,0 +1,6 @@
+﻿frame_id,source,phenomenon,affected_field,effect_on_label
+D04,real_IR,"Người lái quay nghiêng mặt, mắt phải bị che và tối, không đoán được vị trí",eye_right,eye_right=unknown; 4 điểm right_eye_* đánh outside
+D06,real_IR,"Người lái quay nghiêng mặt và nằm trong vùng tối, mắt trái bị che và tối, không đoán được vị trí",eye_left,eye_left=unknown; 4 điểm left_eye_* đánh outside
+D03,real_IR,Người lái đang uống nước đóng chai; tay và chai nước che hoàn toàn môi dưới và một phần môi trên,"lip_lower, lip_upper, mouth_right","lip_lower, lip_upper, mouth_right đánh outside (không đoán được vị trí)"
+S02_ir,IR_sim,"Người ngồi hàng ghế sau không thắt dây an toàn, thấy rõ trên cả RGB và IR; tóc che phủ mặt",seatbelt,"giữ not_worn, không khác ảnh RGB"
+S08_ir,IR_sim,"Dây an toàn buông phía sau lưng ghế, chưa thắt; người ngồi đang nhìn ra cửa sổ; thấy rõ trên cả RGB và IR",seatbelt,"giữ not_worn, không khác ảnh RGB"

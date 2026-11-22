@@ -1,0 +1,55 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,face,gaze_zone,khác giá trị (IoU=0.83),road,center,,,
+D01.png,hand,on_wheel,khác giá trị (IoU=0.59),no,unknown,,,
+D01.png,face13,right_eye_outer.occluded,khác cờ,1,0,,,
+D01.png,face13,mouth_right.occluded,khác cờ,1,0,,,
+D02.png,face,gaze_zone,khác giá trị (IoU=0.77),road,center,,,
+D02.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+D02.png,face13,mouth_right.occluded,khác cờ,1,0,,,
+D03.png,face,gaze_zone,khác giá trị (IoU=0.87),road,center,,,
+D03.png,face13,mouth_left.occluded,khác cờ,0,1,mine,4.6,"Đã xem lại, giữ mouth_left không cờ"
+D03.png,face13,lip_lower.occluded,khác cờ,0,1,mine,4.6,"Giữ outside: chai nước và tay che hoàn toàn môi dưới, không đoán được vị trí (ir_log)"
+D03.png,face13,lip_lower.outside,khác cờ,1,0,mine,4.6,"Giữ outside: chai nước và tay che hoàn toàn môi dưới, không đoán được vị trí (ir_log)"
+D04.png,face,eye_left,khác giá trị (IoU=0.68),closed,open,,,
+D04.png,face,eye_right,khác giá trị (IoU=0.68),unknown,open,mine,"4.4-1, 4.5","Giữ unknown: mặt nghiêng, mắt phải tối, không thấy (ir_log)"
+D04.png,face,gaze_zone,khác giá trị (IoU=0.68),center,mirror_c,both_wrong,4.5,"Sửa thành other: mắt trái nhắm, mắt phải không thấy, không chắc hướng nhìn (export_final_v2)"
+D04.png,face13,right_eye_outer.outside,khác cờ,1,0,mine,4.6,"Giữ outside: mắt phải tối, không đoán được vị trí (ir_log)"
+D04.png,face13,right_eye_inner.outside,khác cờ,1,0,mine,4.6,"Giữ outside: mắt phải tối, không đoán được vị trí (ir_log)"
+D04.png,face13,right_eye_upper.outside,khác cờ,1,0,mine,4.6,"Giữ outside: mắt phải tối, không đoán được vị trí (ir_log)"
+D04.png,face13,right_eye_lower.outside,khác cờ,1,0,mine,4.6,"Giữ outside: mắt phải tối, không đoán được vị trí (ir_log)"
+D04.png,face13,mouth_right.occluded,khác cờ,1,0,,,
+D05.png,phone,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.19,,,,
+D05.png,phone,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D06.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.48,,,,
+D06.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D06.png,face13,left_eye_outer.occluded,khác cờ,0,1,mine,4.6,"Giữ outside: mặt nghiêng trong vùng tối, không đoán được vị trí mắt trái (ir_log)"
+D06.png,face13,left_eye_outer.outside,khác cờ,1,0,mine,4.6,"Giữ outside: mặt nghiêng trong vùng tối, không đoán được vị trí mắt trái (ir_log)"
+D06.png,face13,left_eye_inner.occluded,khác cờ,0,1,mine,4.6,"Giữ outside: mặt nghiêng trong vùng tối, không đoán được vị trí mắt trái (ir_log)"
+D06.png,face13,left_eye_inner.outside,khác cờ,1,0,mine,4.6,"Giữ outside: mặt nghiêng trong vùng tối, không đoán được vị trí mắt trái (ir_log)"
+D06.png,face13,left_eye_upper.occluded,khác cờ,0,1,mine,4.6,"Giữ outside: mặt nghiêng trong vùng tối, không đoán được vị trí mắt trái (ir_log)"
+D06.png,face13,left_eye_upper.outside,khác cờ,1,0,mine,4.6,"Giữ outside: mặt nghiêng trong vùng tối, không đoán được vị trí mắt trái (ir_log)"
+D06.png,face13,left_eye_lower.occluded,khác cờ,0,1,mine,4.6,"Giữ outside: mặt nghiêng trong vùng tối, không đoán được vị trí mắt trái (ir_log)"
+D06.png,face13,left_eye_lower.outside,khác cờ,1,0,mine,4.6,"Giữ outside: mặt nghiêng trong vùng tối, không đoán được vị trí mắt trái (ir_log)"
+D06.png,face13,mouth_left.occluded,khác cờ,1,0,,,
+S01_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S01_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S02_ir.png,person,seat,khác giá trị (IoU=0.97),rear_left,rear_right,mine,4.4-3,Giữ rear_left: người ngồi ở nửa phải ảnh; camera nhìn về sau nên phải ảnh là rear_left
+S02_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.38,,,,
+S02_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S02_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S02_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S02_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S02_rgb.png,person,seat,khác giá trị (IoU=0.97),rear_left,rear_right,mine,4.4-3,Giữ rear_left: người ngồi ở nửa phải ảnh; camera nhìn về sau nên phải ảnh là rear_left
+S02_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.33,,,,
+S02_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S02_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S04_ir.png,infant_seat,facing,khác giá trị (IoU=0.98),rear,front,,,
+S04_rgb.png,infant_seat,facing,khác giá trị (IoU=0.94),rear,front,,,
+S07_ir.png,child_seat,occupied,khác giá trị (IoU=0.93),no,unknown,,,
+S07_rgb.png,child_seat,occupied,khác giá trị (IoU=0.96),no,unknown,,,
+S08_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.50,,,,
+S08_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S08_rgb.png,face,eye_left,khác giá trị (IoU=0.52),unknown,open,,,
+S08_rgb.png,face,eye_right,khác giá trị (IoU=0.52),unknown,open,,,
+S08_rgb.png,face,gaze_zone,khác giá trị (IoU=0.52),other,road,,,
+S08_rgb.png,face,glasses,khác giá trị (IoU=0.52),unknown,none,,,
