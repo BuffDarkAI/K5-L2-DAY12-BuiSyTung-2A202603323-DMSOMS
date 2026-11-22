@@ -1,0 +1,7 @@
+# Ảnh cabin không được commit (RULES §2)
+*.png
+*.jpg
+*.jpeg
+*.mp4
+G[0-9][0-9]/
+manifest.csv
